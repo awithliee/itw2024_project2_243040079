@@ -57,7 +57,8 @@
         </div>
       </div>
       <div class="tampilan">
-        <img data-aos="fade-left" src="img/hero 1.jpg" alt="" class="position-absolute end-0 bottom-0 img-home" />
+        <img data-aos="fade-left" src="img/hero 1.jpg" alt="" 
+        class="position-absolute end-0 bottom-0 img-home" />
       </div>
     </div>
 
@@ -221,44 +222,33 @@
     <!--------------produk end------------------->
     <!--------------kontak------------------->
     <section id="kontak">
-      <div class="container-fluid overlay h-100">
+      <div class="container h-100">
         <div data-aos="fade-up" class="container">
-          <div class="row">
-            <div class="col-12 text-center">
-              <h2>Kontak Shell</h2>
+          <div class="row mb-3">
+            <div class="col text-center">
+              <h2>Kontak Kami</h2>
             </div>
-            <div class="col-md-6 mt-5">
-              <div class="kontak">
-                <h6 class="fw-bold">Social Media</h6>
-                <a href="https://www.instagram.com/shell_indonesia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                  <i class="bi bi-instagram fs-1"></i>
-                </a>
-                <a href="https://www.shell.com/">
-                <i class="bi bi-browser-chrome fs-1"></i>
-              </a>
-              </div>
-            </div>
-            <div class="row justify-content-end">
-              <div class="col-md-6 mt-5">
-                <div class="box-kontak w-100">
-                <form name="kontak-shell">
-                  <div class="mb-3">
-                    <label for="name" class="form-label"> Nama Legkap</label>
-                    <input type="text" class="form-control" id="name" aria-describedby="nama" name="nama">
+            <div class="row justify-content-center">
+              <div class="col-md-6 ">
+                <div class="box-kontak">
+                  <form name="kontak-shell">
                     <div class="mb-3">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                      <label for="name" class="form-label"> Nama Legkap</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="nama" name="nama">
                       <div class="mb-3">
-                        <label for="pesan" class="form-label">Pesan</label>
-                        <textarea class="form-control" id="pesan" rows="2" name="pesan"></textarea>
-                      </div>
-                      <button type="submit" class="button-kontak">Kirim</button>
-                      <button class="btn btn-secondary btn-loading d-none" type="button" disabled>
-                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                        Loading...
-                      </button>
-                    </form>
-                    </div>
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                        <div class="mb-3">
+                          <label for="pesan" class="form-label">Pesan</label>
+                          <textarea class="form-control" id="pesan" rows="2" name="pesan"></textarea>
+                        </div>
+                        <button type="submit" class="button-kontak">Kirim</button>
+                        <button class="btn btn-secondary btn-loading d-none" type="button" disabled>
+                          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                          Loading...
+                        </button>
+                  </form>
+                </div>
                 <div class="alert alert-secondary alert-dismissible fade show d-none alert-saya" role="alert">
                   <strong>Terimakasih!</strong>Pesan anda telah terkirim.
                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -267,6 +257,8 @@
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </section>
     <!--------------kontak end------------------->
@@ -290,7 +282,7 @@
     <!---connect gs------->
     <script>
       const scriptURL =
-      'https://script.google.com/macros/s/AKfycbwWuKtRRqdWSHJCcgWcy6ZuFvY1Fg1leHoWqtj6Eh4nIKuo9oOoKCEWgzBUaLycu-VaZg/exec'
+        'https://script.google.com/macros/s/AKfycbwWuKtRRqdWSHJCcgWcy6ZuFvY1Fg1leHoWqtj6Eh4nIKuo9oOoKCEWgzBUaLycu-VaZg/exec'
       const form = document.forms["kontak-shell"];
       const buttonKontak = document.querySelector(".button-kontak");
       const btnLoading = document.querySelector(".btn-loading");
